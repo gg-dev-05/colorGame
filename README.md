@@ -1,5 +1,5 @@
 # Color Game
-
+**Try the game on [heroku](https://color-game-s.herokuapp.com/)**
 ## Installation
 * Create a new directory.
 * Run the following command in your directory ``` git clone https://github.com/gg-dev-05/colorGame.git ```
