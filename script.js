@@ -58,12 +58,12 @@ for (var i = 0; i < squares.length; i++) {
         var clickedColor = this.style.background;
         if (pickedCOlor == clickedColor) {
             changeColors(pickedCOlor);
-            message.textContent = "You WInn";
+            message.textContent = "You Win";
             document.querySelector("h1").style.background = pickedCOlor;
             resetButton.textContent = "Play Again?";
         } else {
             this.style.background = "#232323";
-            message.textContent = "Try Agagin";
+            message.textContent = "Try Again";
         }
     })
 }
